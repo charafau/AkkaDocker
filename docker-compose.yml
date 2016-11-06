@@ -4,4 +4,4 @@ services:
     build: .
     command: bash -c "cd /root/AkkaDocker && sbt ~run"
     volumes: [".:/root/AkkaDocker"]
-    ports: ["8080:8080"]
+    ports: ["9000:9000"]
